@@ -7,7 +7,7 @@ The student management system. On the platform, students can Share a post simila
 Windows10/
 Mysql	5.7.25/
 Jbk	1.8.0-181/
-Tomcat	8.5.45/
+Tomcat 8.0.53/
 Idea	4.4.2
 # login
 ![image](https://github.com/hemadu/The-student-management-system/assets/111234410/ae386df4-e65f-4348-9a95-80a4b7ad59ba)
