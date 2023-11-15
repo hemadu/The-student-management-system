@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/web/jsp/newsadd.jsp" />
+    <file url="file://$PROJECT_DIR$/web/jsp/newslist.jsp" />
+    <file url="file://$PROJECT_DIR$/web/jsp/newsmodify.jsp" />
+    <file url="file://$PROJECT_DIR$/web/jsp/personlist.jsp" />
+    <file url="file://$PROJECT_DIR$/web/jsp/personmodify.jsp" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

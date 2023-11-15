@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+               http://www.springframework.org/schema/beans/spring-beans.xsd
+               http://www.springframework.org/schema/context
+               http://www.springframework.org/schema/context/spring-context.xsd
+               http://www.springframework.org/schema/mvc
+               http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+<!--配置controller-->
+<!--  可用注解代替  <bean id="/hello" class="cn.smbms.controller.HelloController"/>-->
+
+
+    <!--扫描带注解的Controller-->
+    <context:component-scan base-package="cn.controller"/>
+    <!--开启controller注解-->
+
+    <mvc:annotation-driven conversion-service="conversionService">
+        <mvc:message-converters>
+            <ref bean="fastJsonHttpMessageConverter"/>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--静态资源映射-->
+<!--    <mvc:resources mapping="/js/**" location="/js/"/>-->
+    <!--静态资源处理-->
+      <mvc:default-servlet-handler/>
+
+    <!--配置一个类型转换器-->
+ <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+<property name="converters">
+    <list>
+        <bean class="cn.converter.DateConverter"/>
+    </list>
+</property>
+ </bean>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix"  value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+    <!--文件解析器  ctrl+N:搜所有-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    <property name="maxUploadSize" value="10000000"/>
+    <property name="maxUploadSizePerFile" value="10000000"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+    <!--JSON转换器-->
+     <bean id="fastJsonHttpMessageConverter" class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+         <property name="supportedMediaTypes" value="application/json;charset=UTF-8"/>
+     </bean>
+</beans>
