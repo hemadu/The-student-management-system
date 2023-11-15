@@ -10,12 +10,15 @@ Jbk	1.8.0-181/
 Tomcat	8.5.45/
 Idea	4.4.2
 # login
-![image](https://github.com/hemadu/JavaWeb/assets/111234410/2c44eeb5-5e3c-43a5-a866-24a20f126e46)
+![image](https://github.com/hemadu/The-student-management-system/assets/111234410/ae386df4-e65f-4348-9a95-80a4b7ad59ba)
 # Home page
-![image](https://github.com/hemadu/JavaWeb/assets/111234410/cb0fe27a-0275-41f3-b781-f90ecefda2ab)
+![image](https://github.com/hemadu/The-student-management-system/assets/111234410/8911e276-1665-4624-9ace-3c7aa000883f)
 # Message
-![image](https://github.com/hemadu/JavaWeb/assets/111234410/999604be-46fd-4e52-87e3-bf998b4b4df6)
+![image](https://github.com/hemadu/The-student-management-system/assets/111234410/7d34f2e5-1a27-4d26-bb67-d2b1c4546699)
+![image](https://github.com/hemadu/The-student-management-system/assets/111234410/7457a00c-5a61-417c-9f7b-e9964f2fb02d)
 # Post
-![image](https://github.com/hemadu/JavaWeb/assets/111234410/ab018bb3-e96c-4780-a97e-96e06f50c79b)
+![image](https://github.com/hemadu/The-student-management-system/assets/111234410/3aad79c4-fd9e-4d0a-8333-d28748c3feda)
+![image](https://github.com/hemadu/The-student-management-system/assets/111234410/e35de52f-4821-4e61-acd6-a4536fabc709)
+
 
 
