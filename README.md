@@ -2,7 +2,7 @@
 # Backend：Spring+SpringMVC+Mybatis
 # Frontend ：Bootstrap
 # ABSTRACT
-The student management system. On the platform, students can Share a post similar to the ' Facebook ', and the content can be related to their own learning, life, entertainment and other aspects. At the same time, it also takes into account the accounting, chat, document learning outcomes and other auxiliary functions, and provides teachers with teachers ' management, evaluation, announcement release, student planning and other functions in the background. 
+The student management system. On the platform, students can Share a post similar to the ' Facebook ', and the content can be related to their own learning, life, entertainment and other aspects. At the same time, it also takes into account the accounting, chat, document learning outcomes and other auxiliary functions, and provides teachers with class management, evaluation, announcement release, student planning and other functions in the background. 
 # Environment
 Windows10/
 Mysql	5.7.25/
